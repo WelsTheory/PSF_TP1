@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
 
-
 #PARTE 1
 def senoidal(frecuencia_muestreo, frecuencia, amplitud, muestras, fase):
     n = np.arange(muestras)
@@ -20,7 +19,6 @@ def triangular(frecuencia_muestreo, frecuencia, amplitud, muestras):
     n = np.arange(muestras)
     trian = amplitud * signal.sawtooth((2 * np.pi * frecuencia * n / frecuencia_muestreo), def_triang)
     return (trian + amplitud)/2
-
 
 if __name__ == '__main__':
     #PARTE 1
