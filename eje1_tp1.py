@@ -48,6 +48,7 @@ if __name__ == '__main__':
     amp = 1
 
     #PARTE 2.1
+    print("TP1 Parte 2.1")
     senal1 = senoidal(fs, 0.1*fs, amp, N, fase)
     senal2 = senoidal(fs, 1.1*fs, amp, N, fase)
     plt.title("Ejercicio 2.1 ")
@@ -58,6 +59,7 @@ if __name__ == '__main__':
     plt.show()
 
     #PARTE 2.2
+    print("TP1 Parte 2.2")
     senal1 = senoidal(fs, 0.49*fs, amp, N, fase)
     senal2 = senoidal(fs, 1.51*fs, amp, N, fase)
     plt.title("Ejercicio 2.2 ")
